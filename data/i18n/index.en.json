@@ -2,8 +2,12 @@
     "featured": "Featured Projects",
     "announcements": "Announcements",
 
+    "proj_salahtimemac_title": "SalahTime MacOS App",
+    "proj_salahtimemac_desc": "Minimal macOS menu bar app showing next prayer time (built with SwiftUI).",
+
+
     "proj_CNN003_title": "Proje 003 : Gesture Recognition",
-    "proj_CNN003_desc": "This is my project about gesture recognition, which is a field that has achieved success in CNN for image recognition and which I think will be easy to start with",
+    "proj_CNN003_desc": "coming soon 👀",
 
 
     "proj_CNN002_title": "Proje 002 : Handwritten",

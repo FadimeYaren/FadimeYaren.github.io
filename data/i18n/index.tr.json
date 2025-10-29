@@ -2,14 +2,17 @@
     "featured": "Öne Çıkan Projeler",
     "announcements": "Duyurular",
 
+    "proj_salahtimemac_title": "SalahTime MacOS App",
+    "proj_salahtimemac_desc": "Bir sonraki namaz vaktini gösteren minimal macOS menü çubuğu uygulaması (SwiftUI ile oluşturulmuştur).",
+
     "proj_CNN003_title": "Proje 003 : Jest Tanıma",
-    "proj_CNN003_desc": "CNN for image recognition konusunda başarıya ulaşmış bir alan olan ve başlangıç için kolay olacağını düşündüğüm gesture recognition ile ilgili projemdir.",
+    "proj_CNN003_desc": "coming soon 👀",
 
     "proj_CNN002_title": "Proje 002 : Handwritten",
     "proj_CNN002_desc": "CNN for image recognition konusunda başarıya ulaşmış bir alan olan ve başlangıç için kolay olacağını düşündüğüm el yazısı tanıma ile ilgili projemdir.",
 
     "proj_CNN001_title": "Proje 001 : Görüntü Tanıma için CNN",
-    "proj_CNN001_desc": "Konunun araştırıldığı ve amacın konu ile ilgili bir survay paper yazmak olduğu CNN ile ilgili projelerimden birisidir.",
+    "proj_CNN001_desc": "Konunun araştırıldığı ve amacın konu ile ilgili bir survey paper yazmak olduğu CNN ile ilgili projelerimden birisidir.",
 
     "proj_mood_title": "🌦️ MoodOfTheWeather",
     "proj_mood_desc": "Şehrinizin hava durumunu kolayca sorgulayabileceğiniz basit bir websitesi.",
