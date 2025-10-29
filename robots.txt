@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://FadimeYaren.github.io/sitemap.xml
+Sitemap: https://fadimeyaren.github.io/sitemap.xml
