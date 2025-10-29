@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Ana sayfa -->
+  <url>
+    <loc>https://FadimeYaren.github.io/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Blog ana sayfası -->
+  <url>
+    <loc>https://FadimeYaren.github.io/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog yazıları -->
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/BilimInsani.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/BireyinKendiSinirlariniBelirlemeOzgurlugu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/CiddiyetleHeyecanVeCoskuIcerisindeYasanabilirMi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/FikirTohumlariniDogruSecmek.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/ImageEnhancementForColorBlindness.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/IyilesmeninYolu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/KendiniTanimlamaOzgurlugu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/KorkuKulturuVeDegerlerKulturuNedir.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/MobbingNedir.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/MuhendisligeTanimsalBirGiris.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/MultiRobotCollaborationInAGridBasedEnvironmentUsingReinforcementLearning.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/NedenKufreHayir.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/SenOzgursunBaskasininCizdigiCerceveninIcineSigmazsin.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://FadimeYaren.github.io/blog/TanimlarinOtesi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

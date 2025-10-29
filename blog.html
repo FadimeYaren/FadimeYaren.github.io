@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Blog ana sayfası meta -->
+  <title>Blog — Fadime Yaren Durmuş</title>
+
+  <meta name="description" content="Fadime Yaren Durmuş’un düşünce, akademik ve mühendislik alanlarındaki yazılarını keşfedin.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Blog — Fadime Yaren Durmuş">
+  <meta property="og:description" content="Fadime Yaren Durmuş’un düşünce, akademik ve mühendislik alanlarındaki yazılarını keşfedin.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fadimeyaren.github.io/blog.html">
+  <meta property="og:image" content="https://fadimeyaren.github.io/assets/preview.png">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog — Fadime Yaren Durmuş">
+  <meta name="twitter:description" content="Fadime Yaren Durmuş’un düşünce, akademik ve mühendislik yazıları.">
+  <meta name="twitter:image" content="https://fadimeyaren.github.io/assets/preview.png">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+
+</head>
+<body data-page="blog">
+  <div class="floating-toggles" aria-label="Quick settings">
+    <button class="toggle lang" aria-label="Dil: Türkçe">
+      <div class="face tr">TR</div>
+      <div class="face en">EN</div>
+      <div class="face de">DE</div>
+    </button>
+    <button class="toggle theme" aria-label="Tema: Dark"><div class="track"><span class="icon">🌙</span><span class="icon">☀️</span></div><div class="knob" aria-hidden="true"></div></button>
+  </div>
+
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <h1 class="title">Fadime Yaren Durmuş</h1>
+        <p class="subtitle" data-i18n="subtitle">Bilgisayar Mühendisliği öğrencisi</p>
+      </div>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav_projects">GitHub Çalışmaları</a>
+        <a class="active" href="blog.html" aria-current="page" data-i18n="nav_blog">Blog</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <h2 data-i18n="page_title">Blog</h2>
+      <div class="filters">
+        <div class="chips" role="tablist" aria-label="Kategoriler">
+          <button class="chip active" data-chip="all" role="tab" data-i18n="filter_all">Hepsi</button>
+          <button class="chip" data-chip="dusunce" role="tab" data-i18n="filter_dusunce">Düşünce</button>
+          <button class="chip" data-chip="akademik" role="tab" data-i18n="filter_akademik">Akademik</button>
+          <button class="chip" data-chip="muh" role="tab" data-i18n="filter_muh">Mühendislik</button>
+        </div>
+
+        <div class="search">
+          <input  id="search" type="search"
+                  data-i18n="search_placeholder"
+                  data-i18n-attr="placeholder aria-label"
+                  placeholder="Ara… (başlık, içerik, etiket)"
+                  aria-label="Blogda ara" />
+        </div>
+
+        <div class="sort">
+          <button type="button" class="sort-trigger" aria-hidden="true">⇅</button>
+          <select id="sortBy"
+                  data-i18n="sort_label"
+                  data-i18n-attr="aria-label"
+                  aria-label="Sırala">
+            <option value="date:desc" data-i18n="sort_date_desc">Tarih (Yeni → Eski)</option>
+            <option value="date:asc" data-i18n="sort_date_asc">Tarih (Eski → Yeni)</option>
+            <option value="title:asc" data-i18n="sort_title_asc">Başlık (A→Z)</option>
+            <option value="title:desc" data-i18n="sort_title_desc">Başlık (Z→A)</option>
+            <option value="read:asc" data-i18n="sort_read_asc">Okuma (Kısa→Uzun)</option>
+            <option value="read:desc" data-i18n="sort_read_desc">Okuma (Uzun→Kısa)</option>
+          </select>
+        </div>
+
+
+      </div>
+
+      <div class="grid" id="blog-grid">
+        <!-- Cards -->
+
+        <article  class="card" 
+                  data-card data-cat="muh"
+                  data-title="Mühendisliğe Tanımsal Bir Giriş"
+                  data-date="2025-10-19"
+                  data-read="2">
+
+          <h3 data-i18n="posts.MuhendisligeTanimsalBirGiris.title">Mühendisliğe Tanımsal Bir Giriş</h3>
+          <p data-i18n="posts.MuhendisligeTanimsalBirGiris.desc">Mühendisliğin ne olduğunu ve bir problemi anlamanın neden en önemli adım olduğunu anlatan kısa bir yazıdır.</p>
+          <div class="meta">
+            <span class="badge cat-muh" data-i18n="categories.muh">Mühendislik</span>
+            <span class="tag">Problem</span><span class="tag">Sistematik Düşünce</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/MuhendisligeTanimsalBirGiris.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="akademik"
+                  data-title="Multi Robot Collaboration in a Grid-Based Environment Using Reinforcement Learning"
+                  data-date="2025-05-29"
+                  data-read="80">
+
+          <h3 data-i18n="posts.MultiRobotCollaborationInAGridBasedEnvironmentUsingReinforcementLearning.title">Multi Robot Collaboration in a Grid-Based Environment Using Reinforcement Learning</h3>
+          <p data-i18n="posts.MultiRobotCollaborationInAGridBasedEnvironmentUsingReinforcementLearning.desc">Bu çalışma, bir ızgara tabanlı mutfak simülasyonunda birden fazla robotun pekiştirmeli öğrenme (özellikle Q-Learning) kullanarak birlikte çalışmayı öğrenmesini ve görev paylaşımı yoluyla hamburger üretimini hedefleyen bir sistem tasarımını anlatmaktadır.</p>
+          <div class="meta">
+            <span class="badge cat-akademik" data-i18n="categories.akademik">Akademik</span>
+            <span class="tag">Robotik</span><span class="tag">Yapay Zeka</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/MultiRobotCollaborationInAGridBasedEnvironmentUsingReinforcementLearning.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Bireyin Kendi Sınırlarını Belirleme Özgürlüğü"
+                  data-date="2025-02-25"
+                  data-read="2">
+
+          <h3 data-i18n="posts.BireyinKendiSinirlariniBelirlemeOzgurlugu.title">Bireyin Kendi Sınırlarını Belirleme Özgürlüğü</h3>
+          <p data-i18n="posts.BireyinKendiSinirlariniBelirlemeOzgurlugu.desc">Bu metin, bireyin özgürlüğünün ve kimliğinin, kendi kararlarını dış baskılardan bağımsız biçimde alabilme yetisinde yattığını vurgular.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Özgürlük</span><span class="tag">Bireysel Farkındalık</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/BireyinKendiSinirlariniBelirlemeOzgurlugu.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Korku Kültürü ve Değerler Kültürü Nedir?"
+                  data-date="2025-02-05"
+                  data-read="3">
+
+          <h3 data-i18n="posts.KorkuKulturuVeDegerlerKulturuNedir.title">Korku Kültürü ve Değerler Kültürü Nedir?</h3>
+          <p data-i18n="posts.KorkuKulturuVeDegerlerKulturuNedir.desc">Bu metin, Doğan Cüceloğlu’nun tanımladığı “korku kültürü”nün bireyleri baskı ve güvensizlik içinde tutarken, “değerler kültürü”nün özgürlük, güven ve toplumsal gelişimi teşvik eden bir yaşam biçimi sunduğunu anlatır.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Toplum</span><span class="tag">Değerler</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/KorkuKulturuVeDegerlerKulturuNedir.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Sen Özgürsün, Başkasının Çizdiği Çerçevenin İçine Sığmazsın"
+                  data-date="2025-02-02"
+                  data-read="1">
+
+          <h3 data-i18n="posts.SenOzgursunBaskasininCizdigiCerceveninIcineSigmazsin.title">Sen Özgürsün, Başkasının Çizdiği Çerçevenin İçine Sığmazsın</h3>
+          <p data-i18n="posts.SenOzgursunBaskasininCizdigiCerceveninIcineSigmazsin.desc">Bu metin, bireyin başkalarının kalıplarına uymadan, kendi düşünce, etik ve mantık çerçevesinde özgürce yaşama ve kendini gerçekleştirme hakkını vurgular.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Özgürlük</span><span class="tag">Kişisel Gelişim</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/SenOzgursunBaskasininCizdigiCerceveninIcineSigmazsin.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Kendini Tanımlama Özgürlüğü"
+                  data-date="2025-01-08"
+                  data-read="4">
+
+          <h3 data-i18n="posts.KendiniTanimlamaOzgurlugu.title">Kendini Tanımlama Özgürlüğü</h3>
+          <p data-i18n="posts.KendiniTanimlamaOzgurlugu.desc">Bu metin, bireyin toplumsal rollerin ve dış tanımlamaların ötesine geçerek kendi özünü, kimliğini ve varoluşunu özgürce keşfetme sürecini anlatır.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Kimlik</span><span class="tag">Öz Farkındalık</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/KendiniTanimlamaOzgurlugu.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="İyileşmenin Yolu"
+                  data-date="2025-01-01"
+                  data-read="5">
+
+          <h3 data-i18n="posts.IyilesmeninYolu.title">İyileşmenin Yolu</h3>
+          <p data-i18n="posts.IyilesmeninYolu.desc">Bu metin, travmaların sadece psikolojik değil fizyolojik kökenleri olduğunu vurgulayarak, bastırmak yerine duyguları ifade etmenin ve harekete geçmenin iyileşme ve özgürleşmenin temel yolu olduğunu anlatır.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Psikoloji</span><span class="tag">Travma</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/IyilesmeninYolu.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Fikir Tohumlarını Doğru Seçmek"
+                  data-date="2024-02-01"
+                  data-read="1">
+
+          <h3 data-i18n="posts.FikirTohumlariniDogruSecmek.title">Fikir Tohumlarını Doğru Seçmek</h3>
+          <p data-i18n="posts.FikirTohumlariniDogruSecmek.desc">Bu metin, problemlerin kökeninin zihinde başladığını vurgulayarak, sağlıklı düşüncenin, doğru problem tanımının ve bilinçli fikirlerin bireysel ve toplumsal iyiliğin temelini oluşturduğunu anlatır.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Zihin</span><span class="tag">Felsefe</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/FikirTohumlariniDogruSecmek.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Ciddiyetle Heyecan ve Coşku İçerisinde Yaşanabilir mi?"
+                  data-date="2023-09-20"
+                  data-read="5">
+
+          <h3 data-i18n="posts.CiddiyetleHeyecanVeCoskuIcerisindeYasanabilirMi.title">Ciddiyetle Heyecan ve Coşku İçerisinde Yaşanabilir mi?</h3>
+          <p data-i18n="posts.CiddiyetleHeyecanVeCoskuIcerisindeYasanabilirMi.desc">Bu metin, ciddiyetin mutsuzlukla özdeşleştirilmesinin yanlış olduğunu, aslında insanın değerlerine bağlı, bilinçli ve sorumlu bir yaşam sürerken de coşkulu ve mutlu olabileceğini anlatır.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Ciddiyet</span><span class="tag">Mutluluk</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/CiddiyetleHeyecanVeCoskuIcerisindeYasanabilirMi.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Tanımların Ötesi"
+                  data-date="2023-08-26"
+                  data-read="2">
+
+          <h3 data-i18n="posts.TanimlarinOtesi.title">Tanımların Ötesi</h3>
+          <p data-i18n="posts.TanimlarinOtesi.desc">Bu metin, kendimizi ve duygularımızı tanımlamanın hem özgürleştirici hem de sınırlayıcı olabileceğini, tanımların bazen kimliğimizi kısıtlarken bazen de kendimizi ve korkularımızı anlamamıza yardımcı olduğunu anlatır.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Kimlik</span><span class="tag">Felsefi Düşünce</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/TanimlarinOtesi.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Bilim İnsanı"
+                  data-date="2023-03-23"
+                  data-read="3">
+
+          <h3 data-i18n="posts.BilimInsani.title">Bilim İnsanı</h3>
+          <p data-i18n="posts.BilimInsani.desc">Bu metin, geçmişten gelen düşünce ve ifadelerin nedenlerinin unutulmasının toplumsal adaletsizliklere yol açtığını, bu yüzden kural ve dilin çağın koşullarına göre güncellenmesi gerektiğini vurgular.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Bilim</span><span class="tag">Toplumsal Eşitlik</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/BilimInsani.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Mobbing Nedir?"
+                  data-date="2022-05-02"
+                  data-read="6">
+
+          <h3 data-i18n="posts.MobbingNedir.title">Mobbing Nedir?</h3>
+          <p data-i18n="posts.MobbingNedir.desc">Bu metin, mobbingin iş ve sosyal ortamlarda görülen sistematik bir psikolojik taciz olduğunu, bireyleri ve toplumu olumsuz etkileyen bu döngünün ancak farkındalık, dayanışma ve bilinçli tepkiyle kırılabileceğini anlatır.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">İş Hayatı</span><span class="tag">Psikolojik Taciz</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/MobbingNedir.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="dusunce"
+                  data-title="Neden küfre hayır?"
+                  data-date="2022-04-21"
+                  data-read="3">
+
+          <h3 data-i18n="posts.NedenKufreHayir.title">Neden küfre hayır?</h3>
+          <p data-i18n="posts.NedenKufreHayir.desc">Bu metin, toplumsal eşitsizliklerin ve şiddetin kökeninde dilde yerleşmiş cinsiyetçi ve ayrımcı ifadelerin bulunduğunu, bu nedenle güvenli ve adil bir toplum için dilin bilinçli ve saygılı şekilde kullanılmasının zorunlu olduğunu vurgular.</p>
+          <div class="meta">
+            <span class="badge cat-dusunce" data-i18n="categories.dusunce">Düşünce</span>
+            <span class="tag">Dil</span><span class="tag">Toplumsal Bilinç</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/NedenKufreHayir.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+        </article>
+
+        <article  class="card" 
+                  data-card data-cat="akademik"
+                  data-title="Image Enhancement For Color Blindness"
+                  data-date="2024-12-23"
+                  data-read="140">
+
+          <h3 data-i18n="posts.ImageEnhancementForColorBlindness.title">Image Enhancement For Color Blindness</h3>
+          <p data-i18n="posts.ImageEnhancementForColorBlindness.desc">Bu makale, renk körlüğü yaşayan bireylerin görsel algısını iyileştirmek amacıyla geliştirilen çeşitli görüntü iyileştirme algoritmalarını (örneğin LMS Daltonization, CBFS, LAB Color Corrector ve Shifting Color) inceleyerek, bu tekniklerin görsel farkındalık ve renk ayrımını artırmadaki etkilerini değerlendirir.</p>
+          <div class="meta">
+            <span class="badge cat-akademik" data-i18n="categories.akademik">Akademik</span>
+            <span class="tag">Yapay Zeka</span><span class="tag">Görüntü İşleme</span>
+          </div>
+          <div class="btn-row">
+            <a class="btn primary" href="blog/ImageEnhancementForColorBlindness.html" data-i18n="btn_open">Yazıyı Aç</a>
+          </div>
+          
+        </article>
+
+      </div>
+    </section>
+
+    <footer class="footer" data-i18n="footer">© 2025 • Fadime Yaren Durmuş − İletişim: fyarendurmus@gmail.com ✨</footer>
+  </div>
+</body>
+</html>

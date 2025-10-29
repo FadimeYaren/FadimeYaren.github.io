@@ -1,0 +1,80 @@
+{
+    "page_title": "Blog",
+    "page_subtitle": "Explore my writings on thought, academia, and engineering.",
+    "filter_all": "All",
+    "filter_dusunce": "Thought",
+    "filter_akademik": "Academic",
+    "filter_muh": "Engineering",
+    "categories": {
+        "dusunce": "Thought",
+        "akademik": "Academic",
+        "muh": "Engineering"
+    },
+    "search_placeholder": "Search… (title, content, tag)",
+    "sort_label": "Sort",
+    "sort_date_desc": "Date (New → Old)",
+    "sort_date_asc": "Date (Old → New)",
+    "sort_title_asc": "Title (A→Z)",
+    "sort_title_desc": "Title (Z→A)",
+    "sort_read_asc": "Reading (Short→Long)",
+    "sort_read_desc": "Reading (Long→Short)",
+    "btn_open": "Open Post",
+    "posts": {
+        "MuhendisligeTanimsalBirGiris": {
+            "title": "A Definitional Introduction to Engineering",
+            "desc": "A short piece on what engineering is and why understanding the problem is the crucial first step."
+        },
+        "MultiRobotCollaborationInAGridBasedEnvironmentUsingReinforcementLearning": {
+            "title": "Multi-Robot Collaboration in a Grid-Based Environment Using Reinforcement Learning",
+            "desc": "A kitchen grid simulation where multiple robots learn task sharing via Q-Learning."
+        },
+        "BireyinKendiSinirlariniBelirlemeOzgurlugu": {
+            "title": "The Freedom to Define One’s Own Boundaries",
+            "desc": "Argues that freedom lies in making one’s own choices independent of external pressures."
+        },
+        "KorkuKulturuVeDegerlerKulturuNedir": {
+            "title": "What Are Fear Culture and Values Culture?",
+            "desc": "Contrasts fear culture’s pressure and insecurity with values culture’s freedom and growth."
+        },
+        "SenOzgursunBaskasininCizdigiCerceveninIcineSigmazsin": {
+            "title": "You Are Free; You Don’t Fit in Someone Else’s Frame",
+            "desc": "Affirms living by one’s own ethics and reason rather than others’ molds."
+        },
+        "KendiniTanimlamaOzgurlugu": {
+            "title": "The Freedom of Self-Definition",
+            "desc": "On exploring one’s essence and identity beyond social roles and external labels."
+        },
+        "IyilesmeninYolu": {
+            "title": "The Path to Healing",
+            "desc": "Discusses trauma’s physiological roots and the healing power of expressing emotions."
+        },
+        "FikirTohumlariniDogruSecmek": {
+            "title": "Choosing the Right Seeds of Ideas",
+            "desc": "How sound thinking and proper problem definitions underpin individual and social well-being."
+        },
+        "CiddiyetleHeyecanVeCoskuIcerisindeYasanabilirMi": {
+            "title": "Can One Live Seriously Yet with Excitement and Joy?",
+            "desc": "Serious, value-driven living need not conflict with joy and enthusiasm."
+        },
+        "TanimlarinOtesi": {
+            "title": "Beyond Definitions",
+            "desc": "On how definitions can liberate or constrain identity and emotions."
+        },
+        "BilimInsani": {
+            "title": "Scientist",
+            "desc": "A call to update rules and language in line with contemporary conditions."
+        },
+        "MobbingNedir": {
+            "title": "What Is Mobbing?",
+            "desc": "Systematic psychological harassment at work and in social life—and breaking the cycle with awareness."
+        },
+        "NedenKufreHayir": {
+            "title": "Why Say No to Profanity?",
+            "desc": "This piece argues that entrenched sexist and discriminatory expressions in language underlie social inequalities and violence; therefore, conscious and respectful language use is essential for a safe and just society."
+        },
+        "ImageEnhancementForColorBlindness": {
+            "title": "Image Enhancement for Color Blindness",
+            "desc": "Evaluates Daltonization, CBFS, LAB correction, and color shifting for better visual awareness and separation."
+        }
+    }
+}

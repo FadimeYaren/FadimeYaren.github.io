@@ -1,0 +1,24 @@
+{
+    "updated": "2025-10-20T11:00:00Z",
+    "items": [
+    {
+        "id": "post-001",
+        "title": "Einführung in die Definition der Ingenieurwissenschaften wurde veröffentlicht",
+        "link": "/blog/MuhendisligeTanimsalBirGiris.html",
+        "pin": true
+    },
+    {
+        "id": "post-002",
+        "title": "Schauen Sie sich auch den Artikel zur Bildverbesserung bei Farbenblindheit an",
+        "link": "/blog/ImageEnhancementForColorBlindness.html",
+        "pin": false
+    },
+    {
+        "id": "post-003",
+        "title": "Lesen Sie unbedingt den Artikel 'Was ist Mobbing?'",
+        "link": "/blog/MobbingNedir.html",
+        "pin": false,
+        "expires": "2025-12-31T23:59:59Z"
+    }
+]
+}

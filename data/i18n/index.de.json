@@ -1,0 +1,28 @@
+{
+    "featured": "Ausgewählte Projekte",
+    "announcements": "Ankündigungen",
+
+    "proj_CNN003_title": "Proje 003 : Gestenerkennung",
+    "proj_CNN003_desc": "Dies ist mein Projekt zur Gestenerkennung, einem Bereich, der bei CNN für die Bilderkennung erfolgreich war und mit dem ich leicht anfangen kann.",
+
+    "proj_CNN002_title": "Proje 002 : Handschriftlich",
+    "proj_CNN002_desc": "Dies ist mein Projekt zur Handschrifterkennung, einem Bereich, der bei CNN für die Bilderkennung erfolgreich war und mit dem ich leicht anfangen kann.",
+
+    "proj_CNN001_title": "Projekt 001 : CNN für die Bilderkennung",
+    "proj_CNN001_desc": "Eines meiner Projekte zu CNN, bei dem das Thema erforscht wird und das Ziel darin besteht, eine Übersichtsarbeit zu dem Thema zu schreiben.",
+
+    "proj_mood_title": "🌦️ MoodOfTheWeather",
+    "proj_mood_desc": "Eine einfache Website, um schnell das Wetter Ihrer Stadt zu prüfen.",
+
+    "proj_serenity_title": "🤲🏼 SerenityPath",
+    "proj_serenity_desc": "Zufällige Koran-Verse auf Englisch oder Türkisch lesen und als digitaler Gebetszähler nutzen. Eine praktische, zugängliche Plattform für das Gebet.",
+
+    "proj_plant_title": "🌱 WaterThePlant-Pomodoro",
+    "proj_plant_desc": "Pomodoro-, Timer- und Lern-Tracker mit Pflanzen-Gamification. Noch nicht für die praktische Nutzung bereit.",
+
+    "proj_kitchen_title": "🤖 Kitchen Simulation for RL-Based Multi Robot Collaboration",
+    "proj_kitchen_desc": "Eine Amateur-Simulation von Multi-Robot-Systemen mit Reinforcement Learning in einer Raster-Küche. Vielversprechend, wenn RL verbessert wird.",
+
+    "proj_articles_title": "📚 myArticles",
+    "proj_articles_desc": "Ein Repository für meine Arbeiten im Paper-Stil. Über die Blog-Seite sind auch akademische Beiträge erreichbar."
+}

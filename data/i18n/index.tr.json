@@ -1,0 +1,28 @@
+{
+    "featured": "Öne Çıkan Projeler",
+    "announcements": "Duyurular",
+
+    "proj_CNN003_title": "Proje 003 : Jest Tanıma",
+    "proj_CNN003_desc": "CNN for image recognition konusunda başarıya ulaşmış bir alan olan ve başlangıç için kolay olacağını düşündüğüm gesture recognition ile ilgili projemdir.",
+
+    "proj_CNN002_title": "Proje 002 : Handwritten",
+    "proj_CNN002_desc": "CNN for image recognition konusunda başarıya ulaşmış bir alan olan ve başlangıç için kolay olacağını düşündüğüm el yazısı tanıma ile ilgili projemdir.",
+
+    "proj_CNN001_title": "Proje 001 : Görüntü Tanıma için CNN",
+    "proj_CNN001_desc": "Konunun araştırıldığı ve amacın konu ile ilgili bir survay paper yazmak olduğu CNN ile ilgili projelerimden birisidir.",
+
+    "proj_mood_title": "🌦️ MoodOfTheWeather",
+    "proj_mood_desc": "Şehrinizin hava durumunu kolayca sorgulayabileceğiniz basit bir websitesi.",
+
+    "proj_serenity_title": "🤲🏼 SerenityPath",
+    "proj_serenity_desc": "İngilizce ve Türkçe rastgele Kur'an ayetlerini okuyabilir ve zikirmatik olarak kullanabilirsiniz. Salat etmek için çok pratik erişilebilen bir platform oldu.",
+
+    "proj_plant_title": "🌱 WaterThePlant-Pomodoro",
+    "proj_plant_desc": "Pomodoro, zamanlayıcı ve çalışma takip sistemi; bitki büyütme oyunlaştırması ile verimlilik. Henüz pratik kullanım için hazır değil.",
+
+    "proj_kitchen_title": "🤖 Kitchen Simulation for RL-Based Multi Robot Collaboration",
+    "proj_kitchen_desc": "Çoklu robot sistemlerini reinforcement learning ile simüle eden amatör bir çalışma. Grid bir mutfakta RL güçlendirildiğinde daha iyi sonuçlar alınabilir.",
+
+    "proj_articles_title": "📚 myArticles",
+    "proj_articles_desc": "Akademik makale tarzı çalışmalarımın deposu. Blog sayfasındaki akademik yazılara da kolayca ulaşabilirsiniz."
+}

@@ -1,0 +1,29 @@
+{
+    "featured": "Featured Projects",
+    "announcements": "Announcements",
+
+    "proj_CNN003_title": "Proje 003 : Gesture Recognition",
+    "proj_CNN003_desc": "This is my project about gesture recognition, which is a field that has achieved success in CNN for image recognition and which I think will be easy to start with",
+
+
+    "proj_CNN002_title": "Proje 002 : Handwritten",
+    "proj_CNN002_desc": "This is my project about handwriting recognition, which is a field that has achieved success in CNN for image recognition and which I think will be easy to start with",
+
+    "proj_CNN001_title": "Project 001 : CNN for Image Recognition",
+    "proj_CNN001_desc": "One of my projects on CNN where the topic is researched and the aim is to write a survey paper on the subject.",
+
+    "proj_mood_title": "🌦️ MoodOfTheWeather",
+    "proj_mood_desc": "A simple website to quickly check your city's weather.",
+
+    "proj_serenity_title": "🤲🏼 SerenityPath",
+    "proj_serenity_desc": "Read random Qur'an verses in English or Turkish and use it as a digital tasbih. A handy, accessible platform for prayer.",
+
+    "proj_plant_title": "🌱 WaterThePlant-Pomodoro",
+    "proj_plant_desc": "Pomodoro, timer & study tracker with a plant-growing gamification. Not ready for practical use yet.",
+
+    "proj_kitchen_title": "🤖 Kitchen Simulation for RL-Based Multi Robot Collaboration",
+    "proj_kitchen_desc": "An amateur simulation of multi-robot systems using reinforcement learning in a grid kitchen. Promising when RL is improved.",
+
+    "proj_articles_title": "📚 myArticles",
+    "proj_articles_desc": "A repository for my paper-style works. You can also reach academic posts from the Blog page."
+}

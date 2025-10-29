@@ -1,0 +1,24 @@
+{
+  "updated": "2025-10-20T11:00:00Z",
+  "items": [
+    {
+      "id": "post-001",
+      "title": "Mühendisliğe Tanımsal Bir Giriş yayımlandı",
+      "link": "/blog/MuhendisligeTanimsalBirGiris.html",
+      "pin": true
+    },
+    {
+      "id": "post-002",
+      "title": "Renk Körlüğü için Görüntü İyileştirme yazısına da gözatın",
+      "link": "/blog/ImageEnhancementForColorBlindness.html",
+      "pin": false
+    },
+    {
+      "id": "post-003",
+      "title": "Mobbing Nedir? yazısını mutlaka okuyun",
+      "link": "/blog/MobbingNedir.html",
+      "pin": false,
+      "expires": "2025-12-31T23:59:59Z"
+    }
+  ]
+}
