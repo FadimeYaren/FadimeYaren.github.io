@@ -1,0 +1,15 @@
+{
+    "subtitle": "Studentin der Informatik",
+    "nav_projects": "GitHub-Projekte",
+    "nav_blog": "Blog",
+    "toggle_theme_label": "Thema: Dunkel",
+    "btn_github": "Auf GitHub ansehen",
+    "btn_site": "Zur Website",
+    "footer": "© 2025 • Fadime Yaren Durmuş − Kontakt: fyarendurmus@gmail.com ✨",
+    "link_or_pdf": {
+    "prefix": "Wenn sich die PDF-Datei nicht öffnen lässt,",
+    "open_label": "in neuem Tab öffnen",
+    "or": "oder",
+    "download_label": "herunterladen"
+  }
+}

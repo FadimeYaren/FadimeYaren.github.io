@@ -1,0 +1,80 @@
+{
+    "page_title": "Blog",
+    "page_subtitle": "Düşünce, akademik ve mühendislik yazılarımı keşfedin.",
+    "filter_all": "Hepsi",
+    "filter_dusunce": "Düşünce",
+    "filter_akademik": "Akademik",
+    "filter_muh": "Mühendislik",
+    "categories": {
+        "dusunce": "Düşünce",
+        "akademik": "Akademik",
+        "muh": "Mühendislik"
+    },
+    "search_placeholder": "Ara… (başlık, içerik, etiket)",
+    "sort_label": "Sırala",
+    "sort_date_desc": "Tarih (Yeni → Eski)",
+    "sort_date_asc": "Tarih (Eski → Yeni)",
+    "sort_title_asc": "Başlık (A→Z)",
+    "sort_title_desc": "Başlık (Z→A)",
+    "sort_read_asc": "Okuma (Kısa→Uzun)",
+    "sort_read_desc": "Okuma (Uzun→Kısa)",
+    "btn_open": "Yazıyı Aç",
+    "posts": {
+        "MuhendisligeTanimsalBirGiris": {
+            "title": "Mühendisliğe Tanımsal Bir Giriş",
+            "desc": "Mühendisliğin ne olduğunu ve bir problemi anlamanın neden en önemli adım olduğunu anlatan kısa bir yazıdır."
+        },
+        "MultiRobotCollaborationInAGridBasedEnvironmentUsingReinforcementLearning": {
+            "title": "Grid Tabanlı Ortamda Pekiştirmeli Öğrenme ile Çoklu Robot İşbirliği",
+            "desc": "Q-Learning ile çoklu robotların görev paylaşımı öğrenmesini hedefleyen ızgara tabanlı mutfak simülasyonu."
+        },
+        "BireyinKendiSinirlariniBelirlemeOzgurlugu": {
+            "title": "Bireyin Kendi Sınırlarını Belirleme Özgürlüğü",
+            "desc": "Özgürlüğün, kararlarını dış baskılardan bağımsız alabilme yetisinde yattığını vurgulayan bir düşünce yazısı."
+        },
+        "KorkuKulturuVeDegerlerKulturuNedir": {
+            "title": "Korku Kültürü ve Değerler Kültürü Nedir?",
+            "desc": "Korku kültürünün baskı ve güvensizlik, değerler kültürünün ise özgürlük ve gelişim ürettiğini tartışır."
+        },
+        "SenOzgursunBaskasininCizdigiCerceveninIcineSigmazsin": {
+            "title": "Sen Özgürsün, Başkasının Çizdiği Çerçevenin İçine Sığmazsın",
+            "desc": "Kişinin başkalarının kalıplarına uymadan, kendi etik ve mantık çerçevesinde yaşama hakkı."
+        },
+        "KendiniTanimlamaOzgurlugu": {
+            "title": "Kendini Tanımlama Özgürlüğü",
+            "desc": "Toplumsal rollerin ötesinde, öz’ü ve kimliği özgürce keşfetme sürecine dair."
+        },
+        "IyilesmeninYolu": {
+            "title": "İyileşmenin Yolu",
+            "desc": "Travmaların fizyolojik boyutunu ve duyguları ifade etmenin iyileştirici gücünü ele alır."
+        },
+        "FikirTohumlariniDogruSecmek": {
+            "title": "Fikir Tohumlarını Doğru Seçmek",
+            "desc": "Doğru problem tanımı ve sağlıklı düşüncenin bireysel/toplumsal iyilikteki rolü."
+        },
+        "CiddiyetleHeyecanVeCoskuIcerisindeYasanabilirMi": {
+            "title": "Ciddiyetle Heyecan ve Coşku İçerisinde Yaşanabilir mi?",
+            "desc": "Değerlere bağlı sorumlu yaşamın, coşku ve mutlulukla çelişmediğini savunur."
+        },
+        "TanimlarinOtesi": {
+            "title": "Tanımların Ötesi",
+            "desc": "Tanımların bazen özgürleştirici bazen sınırlayıcı oluşunu, kimlik ve duygular bağlamında tartışır."
+        },
+        "BilimInsani": {
+            "title": "Bilim İnsanı",
+            "desc": "Kuralların ve dilin çağın koşullarına göre güncellenmesi gereğine dair bir çağrı."
+        },
+        "MobbingNedir": {
+            "title": "Mobbing Nedir?",
+            "desc": "İş ve sosyal hayatta sistematik psikolojik taciz; farkındalık ve bilinçli tepkiyle kırılabilecek bir döngü."
+        },
+        "NedenKufreHayir": {
+            "title": "Neden küfre hayır?",
+            "desc": "Bu metin, toplumsal eşitsizliklerin ve şiddetin kökeninde dilde yerleşmiş cinsiyetçi ve ayrımcı ifadelerin bulunduğunu, bu nedenle güvenli ve adil bir toplum için dilin bilinçli ve saygılı şekilde kullanılmasının zorunlu olduğunu vurgular."
+        },
+        "ImageEnhancementForColorBlindness": {
+            "title": "Renk Körlüğü için Görüntü İyileştirme",
+            "desc": "Daltonization, CBFS, LAB düzeltme ve renk kaydırma gibi yöntemlerle görsel farkındalık ve ayrımı artırma."
+        }
+    }
+}

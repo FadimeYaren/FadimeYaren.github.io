@@ -1,0 +1,80 @@
+{
+    "page_title": "Blog",
+    "page_subtitle": "Entdecke meine Texte zu Gedanken, Wissenschaft und Ingenieurwesen.",
+    "filter_all": "Alle",
+    "filter_dusunce": "Gedanken",
+    "filter_akademik": "Akademisch",
+    "filter_muh": "Ingenieurwesen",
+    "categories": {
+        "dusunce": "Gedanken",
+        "akademik": "Akademisch",
+        "muh": "Ingenieurwesen"
+    },
+    "search_placeholder": "Suchen… (Titel, Inhalt, Stichwort)",
+    "sort_label": "Sortieren",
+    "sort_date_desc": "Datum (Neu → Alt)",
+    "sort_date_asc": "Datum (Alt → Neu)",
+    "sort_title_asc": "Titel (A→Z)",
+    "sort_title_desc": "Titel (Z→A)",
+    "sort_read_asc": "Lesezeit (Kurz→Lang)",
+    "sort_read_desc": "Lesezeit (Lang→Kurz)",
+    "btn_open": "Beitrag öffnen",
+    "posts": {
+        "MuhendisligeTanimsalBirGiris": {
+        "title": "Eine definitorische Einführung in die Ingenieurwissenschaft",
+        "desc": "Kurztext darüber, was Ingenieurwesen ist und warum das Problemverständnis der erste entscheidende Schritt ist."
+        },
+        "MultiRobotCollaborationInAGridBasedEnvironmentUsingReinforcementLearning": {
+        "title": "Multi-Robot-Zusammenarbeit in einer gitterbasierten Umgebung mit Reinforcement Learning",
+        "desc": "Küchen-Gitter-Simulation, in der mehrere Roboter mittels Q-Learning Aufgabenverteilung erlernen."
+        },
+        "BireyinKendiSinirlariniBelirlemeOzgurlugu": {
+        "title": "Die Freiheit, eigene Grenzen zu setzen",
+        "desc": "Freiheit bedeutet, Entscheidungen unabhängig von äußerem Druck treffen zu können."
+        },
+        "KorkuKulturuVeDegerlerKulturuNedir": {
+        "title": "Was sind Angst- und Wertekultur?",
+        "desc": "Gegenüberstellung von Druck/Unsicherheit der Angstkultur und Freiheit/Entwicklung der Wertekultur."
+        },
+        "SenOzgursunBaskasininCizdigiCerceveninIcineSigmazsin": {
+        "title": "Du bist frei – du passt nicht in fremde Rahmen",
+        "desc": "Plädiert dafür, nach eigener Ethik und Vernunft zu leben statt nach fremden Schablonen."
+        },
+        "KendiniTanimlamaOzgurlugu": {
+        "title": "Die Freiheit der Selbstdefinition",
+        "desc": "Über die Entdeckung des eigenen Wesens und der Identität jenseits sozialer Rollen."
+        },
+        "IyilesmeninYolu": {
+        "title": "Der Weg zur Heilung",
+        "desc": "Über physiologische Wurzeln von Trauma und die heilende Wirkung des Gefühlsausdrucks."
+        },
+        "FikirTohumlariniDogruSecmek": {
+        "title": "Die richtigen Ideensamen wählen",
+        "desc": "Warum klares Denken und richtige Problemdefinition Grundlage individuellen und gesellschaftlichen Wohlergehens sind."
+        },
+        "CiddiyetleHeyecanVeCoskuIcerisindeYasanabilirMi": {
+        "title": "Ernsthaft leben – und dennoch mit Begeisterung?",
+        "desc": "Ein wertebasiertes, verantwortungsvolles Leben widerspricht Freude und Enthusiasmus nicht."
+        },
+        "TanimlarinOtesi": {
+        "title": "Jenseits von Definitionen",
+        "desc": "Wie Definitionen Identität und Emotionen befreien oder begrenzen können."
+        },
+        "BilimInsani": {
+        "title": "Wissenschaftler:in",
+        "desc": "Ein Plädoyer dafür, Regeln und Sprache an die Bedingungen der Zeit anzupassen."
+        },
+        "MobbingNedir": {
+        "title": "Was ist Mobbing?",
+        "desc": "Systematischer psychologischer Druck in Arbeit und Alltag – zu durchbrechen mit Bewusstsein und Gegenwehr."
+        },
+        "NedenKufreHayir": {
+        "title": "Warum Nein zu Schimpfwörtern?",
+        "desc": "Der Text betont, dass tief verankerte sexistische und diskriminierende Ausdrücke in der Sprache den Nährboden für gesellschaftliche Ungleichheiten und Gewalt bilden; daher ist ein bewusster und respektvoller Sprachgebrauch Voraussetzung für eine sichere und gerechte Gesellschaft."
+        },
+        "ImageEnhancementForColorBlindness": {
+        "title": "Bildverbesserung für Farbenblindheit",
+        "desc": "Bewertung von Daltonisierung, CBFS, LAB-Korrektur und Farbverschiebung zur besseren visuellen Wahrnehmung."
+        }
+    }
+}

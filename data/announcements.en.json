@@ -1,0 +1,24 @@
+{
+    "updated": "2025-10-20T11:00:00Z",
+    "items": [
+    {
+        "id": "post-001",
+        "title": "Definitional Introduction to Engineering has been published",
+        "link": "/blog/MuhendisligeTanimsalBirGiris.html",
+        "pin": true
+    },
+    {
+        "id": "post-002",
+        "title": "Check out the article on Image Enhancement for Color Blindness",
+        "link": "/blog/ImageEnhancementForColorBlindness.html",
+        "pin": false
+    },
+    {
+        "id": "post-003",
+        "title": "Be sure to read the article 'What is Mobbing?'",
+        "link": "/blog/MobbingNedir.html",
+        "pin": false,
+        "expires": "2025-12-31T23:59:59Z"
+    }
+    ]
+}
