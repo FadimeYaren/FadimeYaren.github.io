@@ -666,3 +666,47 @@ html, body { overflow-x: hidden; }
   #onerilenler .card img{ height: 110px; }
   #sonrakiYazi .btn{ padding: 9px 12px; font-size: 13px; }
 }
+
+
+
+
+
+/* === FLOATING TOGGLES ÜST KATMAN SABİTLEME === */
+.floating-toggles{
+  position: fixed;
+  z-index: 10000;           /* her şeyin üstünde */
+  isolation: isolate;       /* kendi stacking context'i */
+  pointer-events: auto;
+  -webkit-transform: translateZ(0); /* iOS için ekstra sağlamlık */
+}
+
+/* Mobilde tamamen opak yap: arkadaki yazı görünmesin */
+@media (max-width: 720px){
+  .toggle{
+    background: rgba(20, 12, 40, 0.98) !important;  /* koyu opak */
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    border-color: rgba(255,255,255,0.12) !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,.25);
+  }
+  body.light .toggle{
+    background: rgba(255, 255, 255, 0.98) !important; /* açık tema için opak */
+    border-color: rgba(0,0,0,.12) !important;
+  }
+}
+
+/* İsteğe bağlı: Her yerde opak istiyorsan (masaüstü dahil) bunu açabilirsin */
+/*
+.toggle{
+  background: rgba(20, 12, 40, 0.98) !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+body.light .toggle{
+  background: rgba(255,255,255,0.98) !important;
+}
+*/
+
+/* Progress bar vs. üstünde kalsın diye (senin bar 60 idi) */
+.progress{ z-index: 60; } /* bilgi: toggles zaten 10000 */
+
