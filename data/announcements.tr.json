@@ -3,8 +3,8 @@
   "items": [
     {
       "id": "post-001",
-      "title": "Mühendisliğe Tanımsal Bir Giriş yayımlandı",
-      "link": "/blog/MuhendisligeTanimsalBirGiris.html",
+      "title": "MacOS için namaz vakti uygulamasını inceleyin",
+      "link": "https://github.com/FadimeYaren/SalahTime/releases",
       "pin": true
     },
     {
